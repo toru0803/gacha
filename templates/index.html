@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style_sp.css" media="screen and (max-width:768px)">
+    <link rel="stylesheet" href="../static/css/style_pc.css" media="screen and (min-width:769px)">
+
+    
+    <script>
+    function confirmFunction1(){
+    ret = confirm("本当に押しますか？");
+    if(ret==true){
+        location.href = "/osanaide";
+    }
+    } 
+    </script>
+    <title>nanisuru</title>
+
+</head>
+    
+
+<body>
+
+    <div class = "title">
+        <h1>今日何する？</h1>
+    </div>
+    
+
+    <div class = "headline">
+        <p>あれ、なんか今日時間あるな・・・</p>
+        <p>たまにはガチャに決めてもらおう！</p>
+        <p>3つから選んでポチっとしてね</p>
+    </div>
+    
+    
+ 
+
+    <div class = "btn">
+            <input type="button" class="btn-circle-fishy-blue" onClick="location.href='/relux'" value="ゆるっと">
+            <input type="button" class="btn-circle-fishy-yellow" onClick="location.href='/fine'" value="しゃきっと">
+            <input type="button" class="btn-circle-fishy-pink" onClick="location.href='/try'" value="やってみよう">
+    </div>
+    
+
+
+
+
+<footer>
+    <ul>
+    <li>©team NINE 2020</li>
+    </ul>
+    <div id = "secret">
+        <p><button onclick="confirmFunction1()">押さないで</button></p>
+    </div>
+
+</footer>
+</body>
+</html>

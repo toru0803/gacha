@@ -1,0 +1,188 @@
+@charset "UTF-8" ;
+html {
+    overflow-y: scroll;
+}
+/*リセットおまじない----------------------------*/
+
+body, h1, h2, h3, h4, h5, p, ul, ol, li, dl, dt, dd {
+    margin: 0px;
+    padding: 0px;
+}    
+body {
+  letter-spacing: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.4;
+  min-width: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-image: url("../img2/sky.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Noto sans Japanise","ヒラギノ角ゴ pro w3","Hiragino Gothic Pro","ヒラギノ角ゴ ProN w3","hiragino kaku Gothic ProN","遊ゴシック",YuGOthic,"メイリオ","Meiryo","HGPｺﾞｼｯｸM","Osaka","ＭＳ Ｐゴシック",sans-serif,Century Goghic,Arial;     ;
+}
+
+body {
+  font-family: "Helvetica Neue",
+  Arial,
+  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;
+}
+
+.title {
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.title h1 {
+  font-size: 100px;
+  opacity: 0.5;
+  color: #FFF;
+  letter-spacing: 6px;
+}
+
+.headline {
+  padding: 100px 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headline p {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+
+.btn {
+  height: 200px;
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 0 50px;
+  margin-bottom: 200px;
+}
+
+.btn-circle-fishy-blue {
+  color: #FFF;
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  border-radius: 50%;
+  background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+  transition: .4s;
+}
+
+.btn-circle-fishy-blue:hover {
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+.btn-circle-fishy-yellow {
+  display: inline-block;
+  text-decoration: none;
+  color: #FFF;
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  border-radius: 50%;
+  background-image: linear-gradient(45deg,#f5a83c 0%, #fadea9 100%);
+  transition: .4s;
+}
+
+.btn-circle-fishy-yellow:hover {
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+.btn-circle-fishy-pink {
+  display: inline-block;
+  text-decoration: none;
+  color: #FFF;
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  border-radius: 50%;
+  background-image: linear-gradient(45deg,#F13F79 0%,#FFC778 100%);
+  transition: .4s;
+}
+
+.btn-circle-fishy-pink:hover {
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+footer {
+  height: 200px;
+}
+
+#secret {
+  margin-top: 50px;
+}
+
+
+.result-head {
+  margin: 0 auto;
+  height: 200px;
+  padding: 100px 0 200px 0;
+}
+
+.result-head h1 {
+  font-size: 80px;
+}
+
+.result-wrapper {
+  margin: 0 auto;
+}
+
+.result {
+  padding-bottom: 50px;
+}
+
+.result h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.result p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.twitter {
+  padding: 20px 0;
+}
+
+.re-try {
+  height: 250px;
+  margin: 50px auto;
+}
+
+.re-try p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.suggestion {
+  margin: 50px auto;
+
+}
+
+.suggestion p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.thanks {
+  margin-top: 200px;
+  font-size: 30px;
+}
+
+.thanks h2 {
+  margin-bottom: 50px;
+}

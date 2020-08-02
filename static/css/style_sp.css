@@ -1,0 +1,182 @@
+@charset "UTF-8" ;
+html {
+    overflow-y: scroll;
+}
+/*リセットおまじない----------------------------*/
+
+body, h1, h2, h3, h4, h5, p, ul, ol, li, dl, dt, dd {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+    min-width: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-image: url("../img2/sky.jpg");
+    background-size: cover;
+    font-family: "Noto sans Japanise","ヒラギノ角ゴ pro w3","Hiragino Gothic Pro","ヒラギノ角ゴ ProN w3","hiragino kaku Gothic ProN","遊ゴシック",YuGOthic,"メイリオ","Meiryo","HGPｺﾞｼｯｸM","Osaka","ＭＳ Ｐゴシック",sans-serif,Century Goghic,Arial;     ;
+}
+
+body {
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+
+img {
+    border: 0px;
+    vertical-align: bottom;
+}
+
+
+.title {
+    margin: 50px 0 80px 0;
+}
+.title h1 {
+    font-size: 30px;
+    opacity: 0.5;
+    color: #FFF;
+    letter-spacing: 6px;
+}
+
+.headline {
+    text-align: center;
+}
+
+.headline p {
+    margin-bottom: 20px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    
+}
+
+.btn {
+    margin: 30px 0 50px 0;
+}
+
+.btn-circle-fishy-blue {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+    transition: .4s;
+    font-size: 8px;
+  }
+  
+  .btn-circle-fishy-blue:hover {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  
+  .btn-circle-fishy-yellow {
+      display: inline-block;
+      text-decoration: none;
+      color: #FFF;
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      border-radius: 50%;
+      text-align: center;
+      overflow: hidden;
+      background-image: linear-gradient(45deg,#f5a83c 0%, #fadea9 100%);
+      transition: .4s;
+      font-size: 8px;
+    }
+    
+    .btn-circle-fishy-yellow:hover {
+      -webkit-transform: rotate(10deg);
+      transform: rotate(10deg);
+    }
+    .btn-circle-fishy-pink {
+      display: inline-block;
+      text-decoration: none;
+      color: #FFF;
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      border-radius: 50%;
+      text-align: center;
+      overflow: hidden;
+      background-image: linear-gradient(45deg,#F13F79 0%,#FFC778 100%);
+      transition: .4s;
+      font-size: 8px;
+    }
+    
+    .btn-circle-fishy-pink:hover {
+      -webkit-transform: rotate(10deg);
+      transform: rotate(10deg);
+    }
+ 
+    footer {
+        height: 200px;
+
+    }
+    footer li {
+        letter-spacing: 2px;
+        font-size: 6px;
+        font-weight: 100;
+        text-align: left;
+        margin-right: 8px;
+    
+    }
+
+    #secret {
+        margin: 80px auto 0 auto;
+    }
+
+    .result-head{
+        margin: 50px auto;
+        
+    }
+
+    .result-head h1 {
+        font-size: 30px;
+    }
+
+    .result-head br {
+        margin-left: 20px;
+    }
+
+    .result-wrapper {
+        margin: 0 auto 30px auto;
+    }
+
+    .result-wrapper .result h2 {
+        font-size: 18px;
+        padding-bottom: 18px;
+    } 
+
+    .result-wrapper .result p {
+        font-size: 14px;
+        padding-bottom: 14px;
+    }
+
+    .re-try {
+        margin: 20px 0;
+
+    }
+
+    .suggestion p {
+        margin-bottom: 20px;
+    }
+    
+    .thanks {
+        margin-top: 100px;
+    }
+
+    .thanks h2{
+        margin: 10px 0;
+    }
